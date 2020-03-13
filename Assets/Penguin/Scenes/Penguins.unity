@@ -508,7 +508,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 30, y: 22, z: 0}
 --- !u!1001 &436630292
 PrefabInstance:
@@ -566,7 +566,7 @@ PrefabInstance:
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -596,7 +596,7 @@ PrefabInstance:
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: fishCount
-      value: 16
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -1010,7 +1010,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1022138393}
   - component: {fileID: 1022138392}
-  - component: {fileID: 1022138391}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1018,14 +1017,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1022138391
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022138390}
-  m_Enabled: 1
 --- !u!20 &1022138392
 Camera:
   m_ObjectHideFlags: 0
@@ -1081,7 +1072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1001 &1043680722
 PrefabInstance:
@@ -1189,7 +1180,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1109931111}
   - component: {fileID: 1109931110}
-  - component: {fileID: 1109931109}
   m_Layer: 0
   m_Name: Main Camera (2)
   m_TagString: MainCamera
@@ -1197,14 +1187,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1109931109
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109931108}
-  m_Enabled: 1
 --- !u!20 &1109931110
 Camera:
   m_ObjectHideFlags: 0
@@ -1260,7 +1242,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1 &1134028821
 GameObject:
@@ -1272,7 +1254,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1134028824}
   - component: {fileID: 1134028823}
-  - component: {fileID: 1134028822}
   m_Layer: 0
   m_Name: Main Camera (3)
   m_TagString: MainCamera
@@ -1280,14 +1261,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1134028822
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134028821}
-  m_Enabled: 1
 --- !u!20 &1134028823
 Camera:
   m_ObjectHideFlags: 0
@@ -1343,7 +1316,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1001 &1244243803
 PrefabInstance:
@@ -1866,7 +1839,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1491641644}
   - component: {fileID: 1491641643}
-  - component: {fileID: 1491641642}
   m_Layer: 0
   m_Name: Main Camera (4)
   m_TagString: MainCamera
@@ -1874,14 +1846,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1491641642
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491641641}
-  m_Enabled: 1
 --- !u!20 &1491641643
 Camera:
   m_ObjectHideFlags: 0
@@ -1995,7 +1959,7 @@ PrefabInstance:
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -2025,7 +1989,7 @@ PrefabInstance:
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: fishCount
-      value: 16
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -2685,7 +2649,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -220, z: 0}
 --- !u!114 &1853108048 stripped
 MonoBehaviour:
@@ -3110,7 +3074,7 @@ PrefabInstance:
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -3140,7 +3104,7 @@ PrefabInstance:
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: fishCount
-      value: 16
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -3677,7 +3641,7 @@ PrefabInstance:
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2405897580047942386, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
@@ -3707,7 +3671,7 @@ PrefabInstance:
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
       propertyPath: fishCount
-      value: 16
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4704905635280985489, guid: 0974609ca55e98940b62e39cf1a79234,
         type: 3}
